@@ -38,8 +38,6 @@ DIRECT = direct
 🇺🇸 美国 = select,{proxies_one_line_us}
 
 [Rule]
-DOMAIN-SUFFIX,cupbug.cloud,DIRECT
-DOMAIN-SUFFIX,lianlianjia.cloud,DIRECT
 DOMAIN-SUFFIX,.jp,🇯🇵 日本
 DOMAIN-SUFFIX,github.com,🇺🇸 美国
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
